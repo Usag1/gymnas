@@ -1,0 +1,161 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+
+  margin:0;
+
+  padding:0;
+
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  justify-content: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-wrapper {
+  position: relative;
+  background: #00acc1;
+  background-image: cover;
+  max-width: 100%;
+  max-height: 100%;
+  
+  /* You need this line for the centered h1 below to work. */
+}
+
+
+
+.Introduce {
+  background-color: #4A148C;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  color: #BA68C8;
+  opacity: 0.7;
+  border-color: black;
+  border-radius: 5em;
+  box-shadow: 6666;
+  size: 24; 
+}
+
+.image-wrapper img {
+  opacity: 0.7;
+}
+
+.top-wrapper h1 {
+ /* Here's a trick for centering your title, if you want. */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  
+  color: #fff;
+
+ }
+
+.container {
+  margin: 0 auto;
+}
+
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.signup {
+  background-color: #239b76;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.footernav {
+
+  flex-direction: column;
+  float: left;
+  align-items: flex-start;
+
+}
+
+.btn {
+  opacity: 0.8;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fab {
+  margin-right: 10px;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.5);
+  height: 65px;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 124px;
+  margin: 20px 0;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 50px;
+}
+
+.header-right a {
+  color: white;
+  line-height: 65px;
+  display: block;
+  padding: 0 25px;
+}
+
+@media only screen and (max-width: 1920px) {
+  body {
+    background-color: lightblue;
+    img: 100%;
+  }
+}
+
