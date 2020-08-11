@@ -75,7 +75,7 @@ img{
 
 /* Title */
 .page-title {
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-family: 'Philosopher', serif;
   text-transform: uppercase;
   text-shadow: -5px 0 #432;
@@ -113,4 +113,47 @@ img{
 
 #home .page-title {
   text-transform: none;
+}
+
+/* NEWS
+------------------------------------------*/
+#news {
+  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  height: 270px;
+  margin-bottom: 40px;
+}
+
+#news .page-title {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+/* Footer 
+------------------------------------------*/
+footer {
+  background: #432;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+/* Article */
+article {
+  width: 74%;
+}
+
+/* Aside */
+aside {
+  width: 22%;
+}
+
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
